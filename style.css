@@ -8,7 +8,7 @@ body {
   background-color: #eae2b7;
 }
 
-/* Set the font family for any h1, h2, or h3 heading */
+/* The font family for any h1, h2 and h3 heading */
 h1 {
   font-size: xx-large;
   font-family: "Playfair Display", Times, serif;
@@ -20,11 +20,12 @@ h2 {
   text-align: center;
 }
 h3 {
-  font-size: large;
+  font-size: larger;
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
 
+/* The article, paragraph and navigation setting listed below*/
 article {
   padding: 50px 0;
 }
@@ -35,6 +36,7 @@ article div {
 }
 
 p {
+  font-size: 15px;
   line-height: 1.5;
   text-align: left;
 }
@@ -52,32 +54,35 @@ a:hover {
   color: #f77f00;
 }
 
+/* The lists setting starts here*/
 ul {
+  list-style-position: inside;
   text-align: center;
 }
 
 OL {
+  list-style-position: inside;
   text-align: left;
 }
 
 li {
+  font-size: 15px;
   margin: auto;
   text-align: left;
 }
 
 /* The div container constrains the content width within the main container to 600px */
+/* The div, hr, header and footer settings*/
 div {
   margin: auto;
   width: 600px;
 }
-
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
   border: 2px solid #003049;
 }
-
 hr {
   border: 1px solid black;
 }
@@ -89,11 +94,18 @@ header {
 footer {
   margin: auto;
   font-family: "Playfair Display", Times, serif;
-  font-size: smaller;
+  font-size: 12px;
   text-align: center;
 }
 
-/* Add your solution below */
+/* The image setting listed below */
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 2px solid #003049;
+}
 
 .image-circle {
   border-radius: 50%;
